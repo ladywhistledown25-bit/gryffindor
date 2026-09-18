@@ -79,7 +79,7 @@
 .gry-1x1-cronologia:focus-within .gry-1x1-cronologia-lista {
   max-height: 320px;
 }
-.gry-1x1-cronologia-item {
+.gry-1x1-contenedor .gry-1x1-cronologia-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,7 +91,7 @@
   border-top: 1px solid var(--gry-1x1-borde);
   transition: background 0.15s ease;
 }
-.gry-1x1-cronologia-item:hover { background: var(--gry-1x1-acento-suave); }
+.gry-1x1-contenedor .gry-1x1-cronologia-item:hover { background: var(--gry-1x1-acento-suave); }
 .gry-1x1-cronologia-item .gry-1x1-pluma-tema {
   width: 15px;
   height: 15px;
@@ -270,7 +270,7 @@
   text-align: justify;
   white-space: pre-line;
 }
-.gry-1x1-texto-scroll p { margin: 0 0 16px 0; }
+.gry-1x1
 .gry-1x1-texto-scroll b { color: #dcb357; font-weight: 700; }
 .gry-1x1-texto-scroll i { color: #e8c97e; font-style: italic; }
 .gry-1x1-texto-scroll em {

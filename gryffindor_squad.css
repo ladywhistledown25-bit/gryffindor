@@ -79,7 +79,7 @@
 .gry-squad-cronologia:focus-within .gry-squad-cronologia-lista {
   max-height: 320px;
 }
-.gry-squad-cronologia-item {
+.gry-squad-contenedor .gry-squad-cronologia-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,7 +91,7 @@
   border-top: 1px solid var(--gry-squad-borde);
   transition: background 0.15s ease;
 }
-.gry-squad-cronologia-item:hover { background: var(--gry-squad-acento-suave); }
+.gry-squad-contenedor .gry-squad-cronologia-item:hover { background: var(--gry-squad-acento-suave); }
 .gry-squad-cronologia-item .gry-squad-pluma-tema {
   width: 15px;
   height: 15px;
