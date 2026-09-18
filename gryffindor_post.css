@@ -176,7 +176,7 @@
   text-align: justify;
   white-space: pre-line;
 }
-.gry-post-texto-scroll p { margin: 0 0 16px 0; }
+.gry-post
 .gry-post-texto-scroll p:last-child { margin-bottom: 0; }
 .gry-post-texto-scroll b { color: #dcb357; font-weight: 700; }
 .gry-post-texto-scroll i { color: #e8c97e; font-style: italic; }
@@ -214,10 +214,6 @@
 .gry-post-contenedor * { scrollbar-width: thin; scrollbar-color: var(--gry-post-acento) var(--gry-post-bg-panel); }
 
 /* ===== CRÉDITOS ===== */
-.gry-post-contenedor a:link, .gry-post-contenedor a:visited, .gry-post-contenedor a:hover, .gry-post-contenedor a:active {
-  color: var(--gry-post-acento);
-  text-decoration: none;
-}
 .gry-post-credits {
   text-align: center;
   margin-top: 22px;
